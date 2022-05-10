@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+carapace - TODO
+--------------------------------------------------------------------------------
+
+[ ] Required task	( ) Optional task
+
+  : Incomplete
+ ~: Partially completed
+ x: Completed
+
+--------------------------------------------------------------------------------
+
+0.2.0 
+-----
+
+[ ] Add logging/debugging system
+[x] Continue adding widgets as needed
+    [x] Tabs as MixIn
+    [x] Notebook (ie Tab Manager) as MixIn
+[x] Revisit KeyboardGenerator
+    [x] Allow multiple modes 
+
+( ) Look into Mod key combinations
+
+--------------------------------------------------------------------------------
+
+0.3.0
+-----
+
+[ ] Add exceptions and error messages
+[x] Revisit List
+    [x] Select/highlight color attributes
+
+( ) Continue adding widgets as needed
+
+--------------------------------------------------------------------------------
+
+0.4.0
+-----
+
+[ ] Configuration system
+    [ ] Color settings
+    [ ] Keyboard binding
+    [ ] Custom action
+
+--------------------------------------------------------------------------------
+vim: sts=4 sw=4 ts=8 ft=TODO
+--------------------------------------------------------------------------------

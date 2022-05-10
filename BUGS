@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+carapace - BUGS
+--------------------------------------------------------------------------------
+
+001 08/01/2008	carapace/widget.py: select_page_down doesn't work
+
+    If user pages down in list view where the list is smaller than the amount
+    of screen space (height), then the select_index goes off the list.
+
+    [Fixed: 08/01/2008 Peter Bui <peter.j.bui@gmail.com>]
+
+    Solution is a bit inefficient, but it works for now.
+    
+    [Reopened: 08/04/2008]
+
+    Solution leads to another crash where if the user keeps pressing page down,
+    then an IndexError exception is thrown if get_selected_widget is called.
+
+    [Fixed: 08/04/2008 Peter Bui <peter.j.bui@gmail.com>]
+
+    New fix involved reorganizing the scrolling logic and should work fine now.
+
+--------------------------------------------------------------------------------
+
+002 08/05/2008	carapace/widget.py: select_down doesn't work properly
+
+    If you are at the end of a list, it will scroll of the screen if you go
+    down.
+
+    [Fixed: 08/05/2008 Peter Bui <peter.j.bui@gmail.com>]
+
+--------------------------------------------------------------------------------
